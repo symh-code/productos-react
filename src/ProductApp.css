@@ -1,0 +1,88 @@
+/* ProductApp.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button.register {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+button.delete {
+  background-color: #f44336;
+  color: #fff;
+}
+
+button.edit {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+button.toggle {
+  background-color: #555;
+  color: #fff;
+}
+
+.edit-product {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.user-item {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.user-item:last-child {
+  border-bottom: none;
+}
+
+.user-item h1, .user-item h2 {
+  margin: 5px 0;
+}
